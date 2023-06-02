@@ -8,10 +8,10 @@ pipeline{
                 script{
                     // git branch: 'main', url: 'https://github.com/gulraeezdevops/sample-jave-app.git'
 
-                    gitCheckout{
+                    gitCheckout(
                         branch: "main",
                         url: "https://github.com/gulraeezdevops/sample-jave-app.git"
-                    }
+                    )
                 }
             }
         }
